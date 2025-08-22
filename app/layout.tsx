@@ -1,4 +1,5 @@
 import Link from "next/link";
+import "../app/globals.css";
 
 export default function RootLayout({
   children,
@@ -23,7 +24,9 @@ export default function RootLayout({
                   <Link href="/about">About</Link>
                 </li>
                 <li>
-                  <Link href="/contact">Contact Us</Link>
+                  <Link href="/contact" prefetch={false}>
+                    Contact Us
+                  </Link>
                 </li>
               </ul>
             </nav>

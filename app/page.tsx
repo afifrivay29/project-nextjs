@@ -7,5 +7,10 @@ export default function Page() {
   //   useEffect(() => {
   //     window.alert("Hello World!");
   //   }, []);
-  return <h1>Hello, Next.js!</h1>;
+  return (
+    <>
+      <h1>Halaman Home</h1>
+      <p>Hello, Next.js!</p>
+    </>
+  );
 }

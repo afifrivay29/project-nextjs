@@ -1,3 +1,5 @@
+import Heading from "../../components/Heading";
+
 export default function AboutPage() {
-  return <h1>Hello, About Page Next.js!</h1>;
+  return <Heading>Halaman About</Heading>;
 }

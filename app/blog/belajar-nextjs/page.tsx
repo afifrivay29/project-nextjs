@@ -1,3 +1,5 @@
+import Heading from "../../../components/Heading";
+
 export default function BelajarNextjsPage() {
-  return <h1>Belajar Next.js</h1>;
+  return <Heading>Halaman Belajar Next.js</Heading>;
 }

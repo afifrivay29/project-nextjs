@@ -1,9 +1,10 @@
 import Link from "next/link";
+import Heading from "../../components/Heading";
 
 export default function BlogPage() {
   return (
     <>
-      <h1>Hello, Blog Next.js!</h1>
+      <Heading>Halaman Blog</Heading>
       <p className="mx-auto px-4">List of posts</p>
       <ul className="mx-auto pl-10">
         <li className="list-disc">

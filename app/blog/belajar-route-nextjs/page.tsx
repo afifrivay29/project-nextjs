@@ -1,3 +1,5 @@
+import Heading from "../../../components/Heading";
+
 export default function BelajarRouteNextjsPage() {
-  return <h1>Belajar Route Next.js</h1>;
+  return <Heading>Belajar Route Next.js</Heading>;
 }

@@ -5,9 +5,6 @@ export default function BlogLayout({
 }) {
   return (
     <>
-      <div>
-        <h1>Halaman Blog</h1>
-      </div>
       <div>{children}</div>
     </>
   );

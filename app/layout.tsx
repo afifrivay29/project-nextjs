@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import "../app/globals.css";
+import { inter } from "../app/fonts";
 
 export default function RootLayout({
   children,
@@ -9,7 +10,7 @@ export default function RootLayout({
 }) {
   console.log("hello world");
   return (
-    <html lang="en">
+    <html lang="en" className={inter.className}>
       <body>
         <div>
           <Header />

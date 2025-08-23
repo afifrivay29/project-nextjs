@@ -4,6 +4,7 @@
 // import { useEffect } from "react";
 
 import Heading from "../components/Heading";
+import { roboto_mono } from "./fonts";
 
 export default function Page() {
   //   useEffect(() => {
@@ -11,7 +12,7 @@ export default function Page() {
   //   }, []);
   return (
     <>
-      <Heading>Halaman Home</Heading>
+      <Heading className={roboto_mono.className}>Halaman Home</Heading>
       <p>Hello, Next.js!</p>
     </>
   );

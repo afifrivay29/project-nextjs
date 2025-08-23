@@ -3,7 +3,7 @@
 
 // import { useEffect } from "react";
 
-import Heading from ".././components/Heading";
+import Heading from "../components/Heading";
 
 export default function Page() {
   //   useEffect(() => {

@@ -5,8 +5,8 @@ import { roboto_mono } from "../fonts";
 export default function BlogPage() {
   return (
     <>
-      <Heading className={roboto_mono.className}>Halaman Blog</Heading>
-      <p className="mx-auto px-4">List of posts</p>
+      <Heading className="font-mono">Halaman Blog</Heading>
+      <p className="mx-auto px-4 font-serif">List of posts</p>
       {/* <ul className="mx-auto pl-10">
         <li className="list-disc">
           <Link

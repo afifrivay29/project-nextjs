@@ -3,3 +3,9 @@
 /* body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 } */
+
+@theme inline {
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-roboto-mono);
+  --font-serif: var(--font-serif);
+}

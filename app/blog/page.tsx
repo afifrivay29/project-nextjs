@@ -2,7 +2,7 @@ import Heading from "../../components/Heading";
 import PostCards from "../../components/PostCards";
 import { roboto_mono } from "../fonts";
 
-export default function BlogPage() {
+export default async function BlogPage() {
   return (
     <>
       <Heading className="font-mono">Halaman Blog</Heading>
